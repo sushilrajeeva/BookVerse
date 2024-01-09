@@ -1,0 +1,32 @@
+{
+  "name": "cs-554-lab-3",
+  "version": "1.0.0",
+  "description": "My lab 3 module",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node ./tasks/seed.js"
+  },
+  "author": "Sushil Bhandary 20015528",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "axios": "^1.3.4",
+    "bcryptjs": "^2.4.3",
+    "blueimp-md5": "^2.19.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "graphql": "^16.8.1",
+    "handlebars": "^4.7.7",
+    "isbn3": "^1.1.42",
+    "mongodb": "^6.1.0",
+    "redis": "^4.6.10",
+    "uuid": "^9.0.1"
+  }
+}
